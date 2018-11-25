@@ -28,10 +28,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        textviewHtmlDocument =  (TextView) findViewById(R.id.textView);
+        textviewHtmlDocument =  (TextView) findViewById(R.id.TextView);
         textviewHtmlDocument.setMovementMethod(new ScrollingMovementMethod()); // 스크롤 가능한 텍스트 뷰로 만들기
 
-        Button htmlTitleButton = (Button) findViewById(R.id.button3);
+        Button htmlTitleButton = (Button) findViewById(R.id.Button3);
         htmlTitleButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
